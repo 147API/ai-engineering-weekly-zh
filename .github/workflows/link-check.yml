@@ -1,0 +1,33 @@
+name: Link Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    # 每周一 03:00 UTC 定时检查，避免外链慢慢失效
+    - cron: "0 3 * * 1"
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links in markdown
+        uses: lycheeverse/lychee-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --timeout 20
+            --max-retries 3
+            --retry-wait-time 2
+            --exclude-mail
+            .
+

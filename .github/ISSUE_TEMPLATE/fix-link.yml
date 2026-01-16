@@ -1,0 +1,32 @@
+name: Fix link / Typo
+description: 报告坏链接、错别字或内容错误
+title: "[Fix] <简要描述>"
+labels: ["fix"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: 位置
+      description: 请贴出文件路径 + 相关行/片段（或直接贴链接）
+      placeholder: |
+        文件：lists/xxx.md
+        位置：项目 xxx 的引用链接
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      placeholder: 链接 404 / 内容过时 / 描述不准确 / 拼写错误等
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议修复方式（可选）
+      placeholder: 给出正确链接或你认为更准确的描述
+    validations:
+      required: false
+
