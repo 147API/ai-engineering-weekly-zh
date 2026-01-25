@@ -6,6 +6,28 @@
 
 ### 资源列表
 
+- **项目**：[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
+  - **一句话价值**：用于构建“有状态的 Agent/工作流”的图编排框架，适合把多步推理与工具调用做成可控流程。
+  - **适用场景**：
+    - 复杂任务拆解、需要明确状态/分支/循环的 agentic workflow
+    - 想把多步骤 LLM 流程做成“可回放/可观测/可控”的结构
+  - **注意事项 / 不适用**：
+    - 流程越复杂越需要评测与可观测；建议先从最小图跑通再扩展
+  - **标签**：`Agents` `Workflows` `Stateful` `Graph`
+  - **引用/参考**：
+    - README/Docs：https://github.com/langchain-ai/langgraph
+
+- **项目**：[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
+  - **一句话价值**：面向 LLM 应用的 SDK/编排框架，强调与企业工程体系集成（工具调用、规划、连接器等）。
+  - **适用场景**：
+    - 企业级集成与编排（把 LLM 作为现有系统中的一个组件）
+    - 需要较完整的连接器/插件机制来对接内部系统
+  - **注意事项 / 不适用**：
+    - 框架能力多，上手建议先锁定一个关键用例，避免复杂度扩散
+  - **标签**：`Agents` `Orchestration` `SDK` `Enterprise`
+  - **引用/参考**：
+    - README/Docs：https://github.com/microsoft/semantic-kernel
+
 - **项目**：[langchain-ai/langchain](https://github.com/langchain-ai/langchain)
   - **一句话价值**：面向 LLM 应用的框架与组件集合，覆盖链式工作流、工具调用、RAG、Agent 等常见形态。
   - **适用场景**：

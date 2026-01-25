@@ -6,6 +6,28 @@
 
 ### 资源列表
 
+- **项目**：[huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference)
+  - **一句话价值**：Hugging Face 的推理服务（TGI），用于高性能文本生成模型 serving。
+  - **适用场景**：
+    - 自建推理服务、需要较成熟的 serving 组件与部署经验
+    - 希望在生产侧以较标准方式部署与扩缩容
+  - **注意事项 / 不适用**：
+    - 部署与性能调优涉及系统与模型细节；建议先小规模压测后再上生产
+  - **标签**：`Serving` `Inference` `Production`
+  - **引用/参考**：
+    - README/Docs：https://github.com/huggingface/text-generation-inference
+
+- **项目**：[NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+  - **一句话价值**：面向 NVIDIA 生态的高性能 LLM 推理优化与部署工具链。
+  - **适用场景**：
+    - 推理瓶颈明显、需要更极致性能/吞吐的部署场景
+    - 你们的推理基础设施以 NVIDIA GPU 为主
+  - **注意事项 / 不适用**：
+    - 上手门槛偏系统与工程化（CUDA/驱动/模型格式），评估团队能力与维护成本
+  - **标签**：`Serving` `Inference` `GPU` `Performance`
+  - **引用/参考**：
+    - README/Docs：https://github.com/NVIDIA/TensorRT-LLM
+
 - **项目**：[vllm-project/vllm](https://github.com/vllm-project/vllm)
   - **一句话价值**：高吞吐 LLM 推理与服务引擎，面向生产部署与性能优化。
   - **适用场景**：

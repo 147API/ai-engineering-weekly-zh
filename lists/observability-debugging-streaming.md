@@ -6,6 +6,17 @@
 
 ### 资源列表
 
+- **项目**：[lunary-ai/lunary](https://github.com/lunary-ai/lunary)
+  - **一句话价值**：LLM 生产工具箱（可观测、prompt 管理与评测），偏“面向落地”的一体化平台。
+  - **适用场景**：
+    - 线上追踪 LLM 调用（成本/延迟/错误/链路）
+    - 管理 prompt 版本与实验，对比不同版本效果
+  - **注意事项 / 不适用**：
+    - 接入前要明确脱敏/合规策略，避免把敏感数据无脑上报
+  - **标签**：`Observability` `Prompt` `Eval` `SelfHosted`
+  - **引用/参考**：
+    - README/Docs：https://github.com/lunary-ai/lunary
+
 - **项目**：[langfuse/langfuse](https://github.com/langfuse/langfuse)
   - **一句话价值**：开源 LLM 可观测平台，用于采集/分析 LLM 应用的 traces、prompt、成本、延迟等指标。
   - **适用场景**：

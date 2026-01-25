@@ -6,6 +6,17 @@
 
 ### 资源列表
 
+- **项目**：[comet-ml/opik](https://github.com/comet-ml/opik)
+  - **一句话价值**：开源的 LLM 应用调试/评测/监控平台，提供追踪、自动化评测与仪表盘。
+  - **适用场景**：
+    - 需要把 LLM 应用“跑出来以后”做可观测、可评测、可对比
+    - 想把评测/回归纳入团队工程流程（而不是临时手工评估）
+  - **注意事项 / 不适用**：
+    - 平台型工具接入成本更高，建议先从最核心链路接入并建立基线
+  - **标签**：`Eval` `Observability` `SelfHosted` `LLMApps`
+  - **引用/参考**：
+    - README/Docs：https://github.com/comet-ml/opik
+
 - **项目**：[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)
   - **一句话价值**：Prompt/LLM 应用的测试与评测框架，适合做回归对比与 CI 集成。
   - **适用场景**：

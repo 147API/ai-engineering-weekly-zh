@@ -6,6 +6,17 @@
 
 ### 资源列表
 
+- **项目**：[weaviate/weaviate](https://github.com/weaviate/weaviate)
+  - **一句话价值**：开源向量数据库/检索平台，支持向量检索与过滤，适合做 RAG 的检索底座。
+  - **适用场景**：
+    - 自托管向量检索，并需要 metadata filter 的检索增强应用
+    - 想在工程上可控地管理集合/索引/检索策略
+  - **注意事项 / 不适用**：
+    - 向量库只是底座，RAG 质量仍需靠数据清洗、chunk 策略与评测回归
+  - **标签**：`VectorDB` `RAG` `Retrieval`
+  - **引用/参考**：
+    - README/Docs：https://github.com/weaviate/weaviate
+
 - **项目**：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)
   - **一句话价值**：端到端的 RAG 引擎/平台，提供从文档处理、检索到对话应用的工程化能力。
   - **适用场景**：

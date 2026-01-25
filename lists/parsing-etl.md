@@ -6,6 +6,18 @@
 
 ### 资源列表
 
+- **项目**：[docling-project/docling](https://github.com/docling-project/docling)
+  - **一句话价值**：把 PDF/DOCX/HTML 等文档解析成统一结构，面向“文档进入 GenAI/RAG”场景的工程化 SDK/CLI。
+  - **适用场景**：
+    - RAG 数据前处理、文档抽取与结构化、文档到知识库流水线
+    - 需要可复现的文档解析结果，便于做评测与回归
+  - **注意事项 / 不适用**：
+    - 文档解析质量需针对自家数据做抽样评测与回归（尤其表格/复杂排版）
+  - **标签**：`Parsing` `Documents` `RAG` `LLMReady`
+  - **引用/参考**：
+    - README/Docs：https://github.com/docling-project/docling
+    - Docs：https://docling-project.github.io/docling/
+
 - **项目**：[microsoft/markitdown](https://github.com/microsoft/markitdown)
   - **一句话价值**：把 Office/PDF 等文档转换为 Markdown 的工具，常用于把资料变成“LLM 可处理”的中间格式。
   - **适用场景**：

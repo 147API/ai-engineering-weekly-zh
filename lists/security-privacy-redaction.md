@@ -6,6 +6,17 @@
 
 ### 资源列表
 
+- **项目**：[Azure/PyRIT](https://github.com/Azure/PyRIT)
+  - **一句话价值**：面向 LLM 的安全测试/红队工具（提示词注入、越权等攻击面），帮助建立安全评测与回归用例。
+  - **适用场景**：
+    - 做 LLM 应用安全评审、红队测试、上线前安全回归
+    - 希望把“安全测试”工程化成可重复跑的用例集
+  - **注意事项 / 不适用**：
+    - 安全测试结果需要落到工程措施（权限隔离、最小权限、审计、guardrails），别停留在“跑报告”
+  - **标签**：`Security` `RedTeam` `Testing`
+  - **引用/参考**：
+    - README/Docs：https://github.com/Azure/PyRIT
+
 - **项目**：[microsoft/presidio](https://github.com/microsoft/presidio)
   - **一句话价值**：PII（敏感信息）识别与脱敏工具集，可用于日志/输入输出的隐私保护。
   - **适用场景**：

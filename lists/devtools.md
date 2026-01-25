@@ -6,6 +6,17 @@
 
 ### 资源列表
 
+- **项目**：[anomalyco/opencode](https://github.com/anomalyco/opencode)
+  - **一句话价值**：开源 AI 编程/代码代理工具，强调在本地代码库上下文中完成任务。
+  - **适用场景**：
+    - 个人/小团队用 AI 加速开发（重构、脚手架、批量修改）
+    - 想要“可审查的改动”（通过 diff/PR 流程把控质量）
+  - **注意事项 / 不适用**：
+    - 仍需严格 code review 与测试；建议限制写权限范围与敏感文件访问
+  - **标签**：`CodingAgent` `CLI` `DeveloperTools`
+  - **引用/参考**：
+    - README/Docs：https://github.com/anomalyco/opencode
+
 - **项目**：[Aider-AI/aider](https://github.com/Aider-AI/aider)
   - **一句话价值**：终端里的 AI 结对编程工具，能在你的代码库上下文中完成修改与重构。
   - **适用场景**：
