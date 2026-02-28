@@ -1,65 +1,120 @@
-### AI 工程精选（中文）
+<div align="center">
 
-一个“少而精”的 AI 工程资源导航/周刊：聚焦 LLM 应用开发、RAG、评测、可观测、推理部署、安全与数据处理等方向。每条资源尽量做到**一句话价值 + 适用场景 + 注意事项 + 标签 + 引用**，便于收藏与团队转发。
+# 🚀 AI 工程精选（中文）
 
----
+[![GitHub stars](https://img.shields.io/github/stars/147API/ai-engineering-weekly-zh?style=social)](https://github.com/147API/ai-engineering-weekly-zh/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/147API/ai-engineering-weekly-zh?style=social)](https://github.com/147API/ai-engineering-weekly-zh/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### 这是什么
+**少而精的 AI 工程资源导航 · 每周五更新**
 
-- **weekly/**：每周精选（10 条左右），偏“传播友好”
-- **lists/**：长期索引（按主题沉淀），偏“检索友好”
+聚焦 LLM 应用开发、RAG、评测、可观测、推理部署、安全与数据处理
 
----
+[📮 订阅更新](#-订阅更新) · [🤝 参与贡献](#-贡献方式) · [📚 分类索引](#-分类索引)
 
-### 如何使用
-
-- 想快速浏览本周精选：看 `weekly/`
-- 想按主题查工具/框架：看 `lists/`
+</div>
 
 ---
 
-### 周刊索引
+## 💡 这是什么
 
-- 2026-W04：[`weekly/2026-W04.md`](weekly/2026-W04.md)
-- 2026-W03：[`weekly/2026-W03.md`](weekly/2026-W03.md)
+一个"少而精"的 AI 工程资源周刊，每条资源都包含：
 
----
+- ✅ **一句话价值**：快速了解核心能力
+- 🎯 **适用场景**：明确使用边界
+- ⚠️ **注意事项**：避开常见坑
+- 🏷️ **标签分类**：便于检索
+- 🔗 **权威引用**：可验证来源
 
-### 分类索引（v0.1）
-
-- [`lists/agents-workflows.md`](lists/agents-workflows.md)：LLM 应用框架/编排（agents/workflows）
-- [`lists/rag-retrieval-vector.md`](lists/rag-retrieval-vector.md)：RAG/检索/向量数据库
-- [`lists/evals-testing.md`](lists/evals-testing.md)：评测与回归（evals/testing）
-- [`lists/observability-debugging-streaming.md`](lists/observability-debugging-streaming.md)：可观测与调试（observability/debugging/streaming）
-- [`lists/serving-inference-runtime.md`](lists/serving-inference-runtime.md)：推理与部署（serving/inference/runtime）
-- [`lists/security-privacy-redaction.md`](lists/security-privacy-redaction.md)：安全与合规（security/privacy/redaction）
-- [`lists/parsing-etl.md`](lists/parsing-etl.md)：数据/文档处理（parsing/ETL）
-- [`lists/devtools.md`](lists/devtools.md)：开发者工具（CLI/插件/模板）
+**两种使用方式：**
+- 📰 **weekly/**：每周精选 10 条左右，适合快速浏览
+- 📚 **lists/**：按主题长期沉淀，适合深度检索
 
 ---
 
-### 贡献方式（欢迎）
+## 📅 最新周刊
 
-最简单的方式：提交一个 Issue，按模板提供信息；我们会尽快补齐条目并收录。
+### [2026-W04](weekly/2026-W04.md) · 本周精选
 
-- 贡献规则见：[`CONTRIBUTING.md`](CONTRIBUTING.md)
-- 新增资源 Issue：`Add resource`
+- 🔥 LangGraph 0.2：多 Agent 编排新范式
+- 🚀 Milvus 2.4：向量数据库性能提升 3x
+- 🛠️ LangSmith：LLM 应用可观测平台
+- ... [查看完整内容](weekly/2026-W04.md)
 
----
+### 往期周刊
 
-### 收录原则（简版）
-
-- **少而精**：宁缺毋滥
-- **可验证**：描述必须能从引用链接/官方文档验证
-- **不写营销**：不使用“最强/吊打/必备”等夸张措辞
-- **给出边界**：至少 1 条“注意事项/不适用场景”
+- [2026-W03](weekly/2026-W03.md)
+- [更多周刊 →](weekly/)
 
 ---
 
-### Maintained by（品牌信息）
+## 📚 分类索引
 
-本仓库由 **`147API`** 维护。我们专注于 AI 工程实践与开发者体验。
+| 分类 | 说明 | 链接 |
+|------|------|------|
+| 🤖 Agents & Workflows | LLM 应用框架/编排 | [查看 →](lists/agents-workflows.md) |
+| 🔍 RAG & Retrieval | RAG/检索/向量数据库 | [查看 →](lists/rag-retrieval-vector.md) |
+| ✅ Evals & Testing | 评测与回归测试 | [查看 →](lists/evals-testing.md) |
+| 👀 Observability | 可观测与调试 | [查看 →](lists/observability-debugging-streaming.md) |
+| ⚡ Serving & Inference | 推理与部署 | [查看 →](lists/serving-inference-runtime.md) |
+| 🔒 Security & Privacy | 安全与合规 | [查看 →](lists/security-privacy-redaction.md) |
+| 📄 Parsing & ETL | 数据/文档处理 | [查看 →](lists/parsing-etl.md) |
+| 🛠️ DevTools | 开发者工具 | [查看 →](lists/devtools.md) |
 
-- 官网：`https://147ai.com/`（可加 UTM：`?utm_source=github&utm_medium=referral&utm_campaign=ai-engineering-weekly-zh`）
-- 联系邮箱：`ai_147api@163.com`
+---
 
+## 🎯 收录原则
+
+我们坚持"少而精"：
+
+- ✅ **可验证**：描述必须能从官方文档验证
+- ✅ **给边界**：至少 1 条"注意事项/不适用场景"
+- ❌ **不营销**：不使用"最强/吊打/必备"等夸张措辞
+- ❌ **不灌水**：宁缺毋滥
+
+详细规则见 [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
+
+## 🤝 贡献方式
+
+欢迎提交优质资源！
+
+1. **最简单**：[提交 Issue](https://github.com/147API/ai-engineering-weekly-zh/issues/new?template=add-resource.md)，按模板填写
+2. **直接 PR**：参考 [贡献指南](CONTRIBUTING.md)
+
+---
+
+## 📮 订阅更新
+
+- ⭐ **Star** 本仓库，GitHub 会推送更新通知
+- 👀 **Watch** 本仓库，第一时间收到新周刊
+- 💬 加入 [Telegram 交流群](https://t.me/ai_engineering_zh) 讨论交流
+- 🔔 关注公众号 **147API** 获取推送
+
+---
+
+## 🏢 关于我们
+
+本项目由 **[147API](https://api.147ai.cn/?utm_source=github&utm_medium=referral&utm_campaign=ai-engineering-weekly-zh)** 维护
+
+我们专注于 AI 工程实践与开发者体验，提供：
+- 🚀 高性能 AI API 中转服务
+- 📚 AI 工程最佳实践分享
+- 🛠️ 开源工具与资源整理
+
+**联系我们：**
+- 📧 邮箱：ai_147api@163.com
+- 🌐 官网：[api.147ai.cn](https://api.147ai.cn/?utm_source=github&utm_medium=referral&utm_campaign=ai-engineering-weekly-zh)
+- 💬 Telegram 群：[ai_engineering_zh](https://t.me/ai_engineering_zh)
+- 📱 公众号：**147API**
+
+---
+
+<div align="center">
+
+**如果这个项目对你有帮助，请给个 ⭐ Star 支持一下！**
+
+Made with ❤️ by [147API](https://api.147ai.cn/?utm_source=github&utm_medium=referral&utm_campaign=ai-engineering-weekly-zh)
+
+</div>
