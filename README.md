@@ -34,15 +34,18 @@
 
 ## 📅 最新周刊
 
-### [2026-W04](weekly/2026-W04.md) · 本周精选
+### [2026-W09](weekly/2026-W09.md) · 本周精选
 
-- 🔥 LangGraph 0.2：多 Agent 编排新范式
-- 🚀 Milvus 2.4：向量数据库性能提升 3x
-- 🛠️ LangSmith：LLM 应用可观测平台
-- ... [查看完整内容](weekly/2026-W04.md)
+- 🔥 LMCache：面向 vLLM 的 KV Cache 共享层，大幅降低首字延迟
+- 🚀 OpenSandbox：阿里开源 AI 应用沙箱平台，支持 Docker/K8s
+- 🤖 DeerFlow：字节跳动 Super Agent 框架，支持子 Agent 编排
+- 📄 MarkItDown：微软文档转 Markdown 工具，RAG 数据清洗利器
+- 🔒 Claude Security Review：Anthropic 出品的 PR 安全审计 Action
+- ... [查看完整内容](weekly/2026-W09.md)
 
 ### 往期周刊
 
+- [2026-W04](weekly/2026-W04.md)
 - [2026-W03](weekly/2026-W03.md)
 - [更多周刊 →](weekly/)
 
